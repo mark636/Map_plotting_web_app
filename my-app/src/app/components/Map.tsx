@@ -7,9 +7,9 @@ import {
   ZoomControl,
 } from "react-leaflet";
 import { Icon, LatLngLiteral } from "leaflet";
-import "leaflet/dist/leaflet.css";
-import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
-import "leaflet-defaulticon-compatibility";
+//import "leaflet/dist/leaflet.css";
+///import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
+//import "leaflet-defaulticon-compatibility";
 
 type MapType = "Roadmap" | "Satellite" | "Hybrid" | "Terrain";
 type MapLocation = LatLngLiteral & { id: string };
